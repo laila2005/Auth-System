@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8" />
+    <title>Profile - Auth System</title>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-form" id="profile-content">
+            <h1 class="form-title">Welcome!</h1>
+            
+            <div class="profile-info">
+                <div class="profile-item">
+                    <span class="profile-label">Username:</span>
+                    <span id="username-display" class="profile-value">Loading...</span>
+                </div>
+                
+                <div class="profile-item">
+                    <span class="profile-label">Login Time:</span>
+                    <span id="login-time" class="profile-value">Loading...</span>
+                </div>
+            </div>
+            
+            <button type="button" class="form-button" id="logout-btn">Logout</button>
+            
+            <div class="auth-toggle">
+                <span>You are successfully logged in!</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
